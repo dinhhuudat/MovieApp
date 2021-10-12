@@ -1,0 +1,19 @@
+@import '../../common/color.scss';
+
+.movie-list{
+    margin:20px 0px ;
+    h2{
+        color:$font-secondary;
+        margin-bottom:10px;
+        font-weight: 400;
+    }
+}
+
+.movie-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+}
