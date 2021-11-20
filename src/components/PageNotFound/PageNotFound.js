@@ -3,7 +3,7 @@ import React from 'react';
 const PageNotFound = () => {
     return (
         <div>
-            Page not found
+            Sorry, this API is not available
         </div>
     );
 };

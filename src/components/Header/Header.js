@@ -5,12 +5,9 @@ import './Header.scss'
 const Header = () => {
     return (
         <div className="header">
-            <Link to={'/'}> 
+            <Link to={'/MovieApp'}> 
                 <div className="logo">Movie App</div>
-            </Link>
-            <div className="user-image">
-                <img src={''} alt='user'  />
-            </div>
+            </Link> 
         </div>
     );
 };
