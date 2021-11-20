@@ -11,6 +11,7 @@ const MovieCard = (props) => {
 
     function callMovieDetail(){
         // console.log(`push:${currentPath}/${data.imdb_id}`)
+        console.log('Current path',currentPath)
         history.push(`${currentPath}${data.IMDB}`,poster)
     }
 
